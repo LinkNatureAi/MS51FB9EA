@@ -17,7 +17,7 @@ void main(void) {
 
     while (1) {
         P14 = !P14;
-        printf_fast_f("\nHello world!   LED status: %d", P14);
+        printf_fast_f("\nHello world!   LED status: %d", (P14));
         Timer1_Delay10ms(100);
     }
 }
